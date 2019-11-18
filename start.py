@@ -1,3 +1,6 @@
+from PIL import Image
+from math import sqrt
+
 def all_channels(func):
     def wrapper(channel, *args, **kwargs):
         try:
@@ -124,11 +127,12 @@ def fill_gradient(im, gradient_color, line_distance=None, max_distance=None):
             pix[x, y] = gradient_color(ratio)
 
 def main():
-  print("Hello World!")
   w, h = 406, 101
   im = Image.new('RGB', [w, h])
   line = Line([w/2 - h/2, 0], [w/2 + h/2, h-1])
   grad = PerceptualGradient([252, 13, 27], [41, 253, 46])
   fill_gradient(im, grad.color, line.distance, 71)
+  im.save("out.png")
+  print("saved to out.png")
 
 main()
