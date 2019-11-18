@@ -1,3 +1,5 @@
+![](/out.png)
+
 Based on https://stackoverflow.com/questions/22607043/color-gradient-algorithm/49321304#49321304
 
 - https://www.guru99.com/learn-python-main-function-with-examples-understand-main.html
