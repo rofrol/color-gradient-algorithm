@@ -16,3 +16,4 @@ $ python3 main.py
 - https://stackoverflow.com/questions/12024397/no-module-named-image/32166371#32166371
 - https://stackoverflow.com/questions/24320630/global-name-sqrt-not-defined#24320645
 - https://stackoverflow.com/questions/5366936/python-image-library-create-and-paste-image
+- lerp https://en.m.wikipedia.org/wiki/Linear_interpolation
